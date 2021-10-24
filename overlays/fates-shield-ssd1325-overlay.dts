@@ -1,0 +1,79 @@
+/*
+Device Tree overlay for SSD1325 SPI controller.
+
+Default pins (Fates Shield v0.1):
+DC# = GPIO17
+RESET# = GPIO4
+
+*/
+
+/dts-v1/;
+/plugin/;
+
+/ {
+  compatible = "brcm,bcm2835", "brcm,bcm2708", "brcm,bcm2709";
+
+  fragment@0 {
+    target = <&spi0>;
+    __overlay__ {
+      status = "okay";
+    };
+  };
+
+  fragment@1 {
+    target = <&spidev0>;
+    __overlay__ {
+      status = "disabled";
+    };
+  };
+
+  fragment@2 {
+    target = <&spidev1>;
+    __overlay__ {
+      status = "disabled";
+    };
+  };
+
+  fragment@3 {
+    target = <&gpio>;
+    __overlay__ {
+      ssd1325_pins: ssd1325_pins {
+        brcm,pins = <4 17>;
+        brcm,function = <1 1>;
+      };
+    };
+  };
+
+  fragment@4 {
+    target = <&spi0>;
+    __overlay__ {
+      #address-cells = <1>;
+      #size-cells = <0>;
+
+      ssd1325: ssd1325@0 {
+        compatible = "solomon,ssd1325";
+        reg = <0>;
+        pinctrl-names = "default";
+        pinctrl-0 = <&ssd1325_pins>;
+
+        spi-max-frequency = <32000000>;
+        buswidth = <8>;
+        rotate = <0>;
+        bgr = <0>;
+        fps = <30>;
+
+        reset-gpios = <&gpio 4 0>;
+        dc-gpios = <&gpio 17 1>;
+        debug = <3>;
+      };
+    };
+  };
+
+  __overrides__ {
+    speed			= <&ssd1325>,"spi-max-frequency:0";
+    rotate		= <&ssd1325>,"rotate:0";
+    bgr				= <&ssd1325>,"bgr:0";
+    fps				= <&ssd1325>,"fps:0";
+    debug			= <&ssd1325>,"debug:0";
+  };
+};
