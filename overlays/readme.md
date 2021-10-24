@@ -8,4 +8,5 @@ Compile
 
 Edit `/boot/config.txt`
 
+    # Screen
     dtoverlay=fates-ssd1325
