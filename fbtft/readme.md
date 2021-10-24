@@ -16,7 +16,7 @@ Config
     cp /usr/src/linux-headers-$(uname -r)/.config .
 
 
-Copy fb_ssd1325.c to `~/linux/drivers/staging/fbtft`
+Copy **fb_ssd1325.c** to `~/linux/drivers/staging/fbtft`
 
 Fix Kconfig and Makefile (SSD1305->SSD1325)
 
