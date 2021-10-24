@@ -2,6 +2,8 @@
 
 Monome [Fates](https://github.com/okyeron/fates) with MIDI and onboard microphone in Monome Shield form-factor
 
+![<fates shield>](<hardware/fates-shield-proto.jpg>)
+
 ### Specs:
 
 - WM8731 stereo audio codec with headphone driver
