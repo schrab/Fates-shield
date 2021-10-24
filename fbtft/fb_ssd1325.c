@@ -39,13 +39,13 @@ static int init_display(struct fbtft_par *par)
 	gpio_set_value(par->gpio.cs, 0);
 	/* Turn the display off. */
 	write_reg(par, 0xAE);
-	/* Set the oscillator division. (set clock as 135 frames/sec) */
+	/* Set the oscillator division. */
 	write_reg(par, 0xb3);
 	write_reg(par, 0xF1);
 	/* Set the multiplex ratio to 1/64 duty cycle. */
 	write_reg(par, 0xa8);
 	write_reg(par, 0x3f);
-	/* Set the display offset  */
+	/* Set the display offset (fixed) */
 	write_reg(par, 0xA2);
 	write_reg(par, 0x4C);
 	/* Set the start line to 0. */
@@ -230,5 +230,5 @@ MODULE_ALIAS("spi:ssd1325");
 MODULE_ALIAS("platform:ssd1325");
 
 MODULE_DESCRIPTION("SSD1325 OLED Driver");
-MODULE_AUTHOR("Alexey Mednyy");
+MODULE_AUTHOR("Alexander Tugov");
 MODULE_LICENSE("GPL");
