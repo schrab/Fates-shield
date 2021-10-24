@@ -24,7 +24,7 @@ Copy fb_ssd1325.c to
         Device Drivers  ---> Staging Drivers ---> Support for small TFT LCD display modules  --->
         <M>   SSD1325 driver
 
-make prepare
+```make prepare
 make -j4 -C ~/linux SUBDIRS=drivers/staging/fbtft modules
 ```
 
