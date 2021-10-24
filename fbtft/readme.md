@@ -5,19 +5,15 @@ sudo apt-get -y install libncurses5-dev
 sudo apt-get install git bc raspberrypi-kernel-headers
 ```
 Linux source
-```
-git clone --depth=1 https://github.com/monome/linux
+```git clone --depth=1 https://github.com/monome/linux
 cd ~/linux
 ```
 
-```
-cp /usr/src/linux-headers-$(uname -r)/Module.symvers .
+```cp /usr/src/linux-headers-$(uname -r)/Module.symvers .
 cp /usr/src/linux-headers-$(uname -r)/.config .
 ```
 
-Copy fb_ssd1325.c to
-``` ~/linux/drivers/staging/fbtft
-```
+Copy fb_ssd1325.c to `~/linux/drivers/staging/fbtft`
 
 ```make menuconfig
 ```
