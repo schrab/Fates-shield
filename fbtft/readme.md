@@ -20,7 +20,7 @@ Copy fb_ssd1325.c to `~/linux/drivers/staging/fbtft`
 
 Fix Kconfig and Makefile (SSD1305->SSD1325)
 
-`make menuconfig`
+    make menuconfig
 
     Device Drivers  ---> Staging Drivers ---> Support for small TFT LCD display modules  --->
     <M>   SSD1325 driver
