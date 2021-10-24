@@ -6,5 +6,5 @@ Compile
 
 Edit /boot/config.txt
 
-```# Screen
-dtoverlay=fates-ssd1325```
+``` # Screen
+dtoverlay=fates-ssd1325
