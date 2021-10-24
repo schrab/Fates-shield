@@ -15,3 +15,9 @@ Monome [Fates](https://github.com/okyeron/fates) with MIDI and onboard microphon
 - 2x 1/8in outputs
 - 1/8in stereo headphone out
 - 1/8in UART MIDI in/out
+
+###TODO
+  
+- [ ] Fix upper OLED holes position
+- [ ] Add RC filering for encoders and keys
+- [ ] Fix headphone jack hole
