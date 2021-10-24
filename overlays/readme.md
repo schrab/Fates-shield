@@ -1,6 +1,6 @@
 #SSD 1325 Device Tree overlay
 
-SPI frequency chaCancel changesnged to 32MHz
+SPI frequency set to 32MHz
 
 Copy `fates-shield-ssd1325-overlay.dts` to `/home/we/fates/overlays/`
 
