@@ -22,7 +22,7 @@ Fix Kconfig and Makefile (SSD1305->SSD1325)
 
     make menuconfig
 
-Select SSD1325 with 'm'
+Select SSD1325 with <kbd>m</kbd>
 
     Device Drivers  ---> Staging Drivers ---> Support for small TFT LCD display modules  --->
     <M>   SSD1325 driver
