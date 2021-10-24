@@ -2,7 +2,9 @@
 
 SPI frequency chaCancel changesnged to 32MHz
 
-Compile
+Copy `fates-shield-ssd1325-overlay.dts` to `/home/we/fates/overlays/`
+
+Compile dtb
 
     sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/fates-ssd1325.dtbo /home/we/fates/overlays/fates-shield-ssd1325-overlay.dts
 
