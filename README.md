@@ -21,7 +21,9 @@ Monome [Fates](https://github.com/okyeron/fates) with MIDI and onboard microphon
 ###TODO
   
 - [ ] Fix upper OLED holes position
-- [ ] Add RC filering for encoders and keys
+- [ ] Add RC filtering for encoders and keys
 - [ ] Fix headphone jack hole
+- [ ] Fix swapped MIDI IN lines
+- [ ] Fix MIDI OUT buffer lines
 
  ![<fates shield back>](<hardware/fates-shield-proto2.jpg>)
