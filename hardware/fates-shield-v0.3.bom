@@ -1,0 +1,81 @@
+Partlist
+
+Exported from fates-shield-v0.3.brd at 05/11/2024 10:58
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value              Package                     Library                     Position (mil)        Orientation
+
+C1       100n               C0603                       rcl                         (1725 1175)           MR180
+C2       10uF               EIA3216                     osborn                      (1150 1140)           MR270
+C3       18p                C0603                       rcl                         (2052.5 792.5)        MR270
+C4       100n               C0603                       rcl                         (1230 1170)           MR90
+C5       10uF               EIA3216                     osborn                      (975 1000)            MR270
+C6       100n               C0603                       rcl                         (1215 905)            MR270
+C8       470p               0603-CAP                    osborn                      (2327.5 897.5)        MR90
+C9       1uF                EIA3216                     osborn                      (1475 1400)           MR0
+C10      1uF                EIA3216                     osborn                      (1250 1400)           MR180
+C11      220p               C0603                       rcl                         (1420 1315)           MR180
+C12      1uF                EIA3216                     osborn                      (1925 1400)           MR180
+C13      220p               C0603                       rcl                         (1245 1315)           MR0
+C14      1uF                EIA3216                     osborn                      (1700 1400)           MR0
+C15      2.7nf              C0603                       rcl                         (2025 1562.5)         MR270
+C16      10uF               EIA3216                     osborn                      (1640 745)            MR90
+C17      2.7nf              C0603                       rcl                         (1600 1562.5)         MR270
+C18      18p                C0603                       rcl                         (2052.5 917.5)        MR90
+C49      10uF               EIA3216                     osborn                      (2444.88189 1025)     MR180
+C50      10uF               EIA3216                     osborn                      (2494.88189 725)      MR180
+C56      100uF              EIA3528                     SparkFun-20110623           (725 1685.03937)      MR270
+C57      100uF              EIA3528                     SparkFun-20110623           (1065 1435.03937)     MR270
+C63      1uF                0603-CAP                    osborn                      (907.5 1235)          MR270
+C64      220pF              0603-CAP                    osborn                      (807.5 1232.5)        MR90
+D3       1N4148             SOD323-W                    diode                       (3000 1362.5)         MR180
+E1       ENC                PEC11RN                     lines                       (2850 1900)           R270
+E2       ENC                PEC11RN                     lines                       (2050 -650)           R270
+E3       ENC                PEC11RN                     lines                       (2850 -650)           R270
+E4       ENC                PEC11RN                     lines                       (450 1900)            R270
+HPOUT    PJ-328             PJ328                       PJ-328                      (930 1937.5)          MR270
+IC3      74AHC1G125DBV      DBV_R-PDSO-G5               74xx-little-de              (3125 450)            MR0
+IC4      MIC5205            SPARKFUN-3-2-07_SOT23-5     osborn                      (2455 872.5)          MR0
+K1       D6R                D6R                         og-switch                   (2250 1900)           R180
+K2       D6R                D6R                         og-switch                   (450 -650)            R0
+K3       D6R                D6R                         og-switch                   (1050 -650)           R0
+LIN      PJ-328             PJ328                       PJ-328                      (1392.5 1937.5)       MR270
+LOUT     PJ-328             PJ328                       PJ-328                      (1850 1937.5)         MR270
+MIC                         1X02                        pinhead                     (902.5 1410)          MR270
+MIDIIN   PJ-328             PJ328                       PJ-328                      (3087.5 1150)         MR0
+MIDIOUT  PJ-328             PJ328                       PJ-328                      (3087.5 687.5)        MR0
+OK1      HCPL0600           SOIC08                      HCPL0600                    (2662.5 1437.5)       MR180
+Q2                          HC49UP                      crystal                     (1932.5 845)          MR270
+R1       10k                0603-RES                    osborn                      (860 1232.5)          MR90
+R2       51                 R0603                       rcl                         (1570 710)            MR90
+R3       51                 R0603                       rcl                         (1515 710)            MR90
+R4       51                 R0603                       rcl                         (1455 710)            MR90
+R5       1k                 0603-RES                    osborn                      (872.5 1135)          MR180
+R6       220                R0603                       rcl                         (2975 425)            MR0
+R7       5k6                R0603                       rcl                         (1517.5 1525)         MR90
+R8       5k6                R0603                       rcl                         (1455 1525)           MR90
+R9       5k6                R0603                       rcl                         (1280 1525)           MR90
+R10      5k6                R0603                       rcl                         (1217.5 1525)         MR90
+R11      47k                R0603                       rcl                         (1925 1525)           MR180
+R12      100                R0603                       rcl                         (1925 1587.5)         MR180
+R13      47k                R0603                       rcl                         (1700 1525)           MR0
+R14      100                R0603                       rcl                         (1700 1587.5)         MR0
+R15      10k                R0603                       rcl                         (2600 1200)           MR0
+R16      220                R0603                       rcl                         (2850 1330)           MR270
+R17      51                 R0603                       rcl                         (1395 710)            MR90
+R18      0                  R0603                       rcl                         (890 1012.5)          MR90
+R19      4,7k               0603-RES                    osborn                      (1770 560)            MR0
+R20      4,7k               0603-RES                    osborn                      (1770 627.5)          MR0
+R21      47k                0603-RES                    osborn                      (1120 1622.5)         MR90
+R22      47k                0603-RES                    osborn                      (772.5 1877.5)        MR90
+R23      220                R0603                       rcl                         (3025 875)            MR0
+R43      10k                0603-RES                    osborn                      (960 1232.5)          MR270
+R44      10k                R0603                       rcl                         (2300 1675)           MR180
+R46      10k                R0603                       rcl                         (550 -400)            MR270
+R48      10k                R0603                       rcl                         (1150 -400)           MR270
+U$2                         OLED-SSD1325                oled-modules                (0 -362.5)            R0
+U1       WM8731             SSOP28                      og-dac                      (1440 1035)           MR0
+X1       RASPI_BOARD_B+#_E3 RASPI_BOARD_B+_EDGES_3DRILL raspberrypi_bastelstube_v13 (3350 2200)           R180
